@@ -8,7 +8,7 @@ export default defineNuxtPlugin(() => {
   const config = useRuntimeConfig()
 
   const api: AxiosInstance = axios.create({
-    baseURL: config.public.apiBizhare,
+    baseURL: config.apiBizhare,
     timeout: 30000,
     headers: {
       'Content-Type': 'application/json'

@@ -5,7 +5,7 @@ export class BizhareRepository {
   private config = useRuntimeConfig()
 
   private get baseUrl() {
-    return this.config.apiBaseUrl
+    return this.config.apiBizhare
   }
 
   async getCategories() {

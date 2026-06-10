@@ -1,14 +1,7 @@
 import type {
-  BusinessResponse
+  BusinessResponse, GetBusinessesPayload
 } from '~/types/business'
 import type { ApiResponse } from '~/types/api'
-
-interface GetBusinessesPayload {
-  page: number
-  size: number
-  businessName?: string
-  listCategory?: string[]
-}
 
 export const businessService = {
   async getBusinesses(

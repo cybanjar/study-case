@@ -9,9 +9,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   runtimeConfig: {
-    public: {
-      apiBizhare: process.env.NUXT_PUBLIC_API_BASE_URL
-    }
+    apiBizhare: process.env.API_BIZHARE_URL
   },
 
   routeRules: {
