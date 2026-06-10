@@ -17,6 +17,8 @@ export class BizhareRepository {
   async getBusinesses(
     payload: GetBusinessesPayload
   ) {
+    console.log('API URL =>', this.baseUrl)
+    
     return $fetch(
       `${this.baseUrl}${API_ENDPOINTS.BUSINESS_LIST}`,
       {
