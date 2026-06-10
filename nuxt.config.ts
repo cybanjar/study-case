@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiBizhare: 'http://sandbox.bizharedev.id:17001'
+      apiBizhare: process.env.NUXT_PUBLIC_API_BASE_URL
     }
   },
 
@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: {
       include: [
+        '@vueuse/core',
         'axios'
       ]
     }

@@ -18,3 +18,10 @@ export interface BusinessResponse {
   totalElements: number
   page: number
 }
+
+export interface GetBusinessesPayload {
+  page: number
+  size: number
+  businessName?: string
+  listCategory?: string[]
+}
