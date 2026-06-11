@@ -33,10 +33,12 @@ function toggleCategory(
 <template>
   <UModal
     v-model:open="open"
-    t
   >
     <template #content>
-      <div class="p-6">
+      <div
+        data-testid="category-modal"
+        class="p-6"
+      >
         <h2 class="mb-4 text-xl font-semibold">
           Filter Kategori
         </h2>

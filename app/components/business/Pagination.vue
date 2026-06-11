@@ -13,5 +13,6 @@ defineProps<{
     v-model:page="page"
     :items-per-page="12"
     :total="totalPages * 12"
+    data-testid="pagination"
   />
 </template>
