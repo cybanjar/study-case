@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <UContainer class="border-default">
+    <UContainer class="border-default md:py-10">
       <slot />
     </UContainer>
   </div>
