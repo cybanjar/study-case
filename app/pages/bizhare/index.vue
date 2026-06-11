@@ -44,7 +44,7 @@ watch(
 
 <template>
   <ClientOnly>
-    <UContainer class="py-8">
+    <UContainer>
       <div
         class="mb-6 flex gap-3"
       >
