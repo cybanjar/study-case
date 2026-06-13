@@ -11,5 +11,6 @@ const keyword = defineModel<string>({
     placeholder="Cari nama bisnis"
     size="lg"
     class="w-full"
+    data-testid="business-search"
   />
 </template>

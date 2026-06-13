@@ -56,6 +56,7 @@ watch(
 
         <UButton
           icon="i-lucide-filter"
+          data-testid="filter-button"
           @click="isFilterOpen = true"
         >
           Kategori
